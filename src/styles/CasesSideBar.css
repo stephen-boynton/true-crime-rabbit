@@ -1,0 +1,7 @@
+.cases-sidebar {
+	padding: 10px;
+	height: 80vh;
+	min-width: 30%;
+	background-color: #277e8e;
+	overflow-y: auto;
+}

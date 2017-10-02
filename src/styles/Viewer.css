@@ -1,0 +1,8 @@
+.viewer {
+	height: 70vh;
+	overflow-y: auto;
+	background: white;
+	color: black;
+	padding: 5px;
+	font-size: 18px;
+}
