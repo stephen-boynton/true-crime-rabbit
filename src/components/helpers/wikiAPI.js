@@ -19,4 +19,19 @@ function getWikiInfo(caseName) {
 	});
 }
 
-export { getWikiInfo };
+function getWikiImages(caseName) {
+	return new Promise((resolve, reject) => {
+		wiki()
+			.page(caseName)
+			.then(page => page.images())
+			.then(images => {
+				const imgs = [];
+				images.forEach((im, i) => {
+					imgs[i] = im;
+				});
+				resolve(images);
+			});
+	});
+}
+
+export { getWikiInfo, getWikiImages };

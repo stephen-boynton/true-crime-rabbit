@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Viewer.css";
 
-export default function Viewer(props) {
+export default function ViewerPodcasts(props) {
 	let counter = 1;
 	return (
 		<div className="viewer">
